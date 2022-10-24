@@ -1,0 +1,23 @@
+[
+	{
+		"courseId": 1,
+		"courseTitle": "Python",
+		"courseImage": "https://i.ibb.co/FskkvpB/python.jpg",
+		"course_description": "Python is widely regarded as a programming language that's easy to learn, due to its simple syntax, a large library of standards and toolkits, and integration with other popular programming languages such as C and C++. In fact, it's the first language that students learn in the Align program, Gorton says. “You can cover a lot of computer science concepts quickly, and it's relatively easy to build on.” It is a popular programming language, especially among startups, and therefore Python skills are in high demand.",
+        "course_duration": "48 Hours",
+        "course_module": 20,
+        "course_price": 10000,
+        "course_module_topics": [
+            "TensorFlow",
+            "Scikit-Learn",
+            "Numpy",
+            "Keras",
+            "PyTorch",
+            "LightGBM",
+            "Eli5",
+            "Scipy",
+            "Theano",
+            "Pendas"
+        ]
+	}
+]
