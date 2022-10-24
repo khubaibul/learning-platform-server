@@ -123,5 +123,48 @@
             "OOP Concepts",
             "Miscellaneous Topics"
 		]
+	},
+	{
+		"courseId": 7,
+		"courseTitle": "PHP",
+		"courseImage": "https://i.ibb.co/HHjQ0Vg/php.png",
+		"course_description": "PHP is widely used for server-side web development, when a website frequently requests information from a server. As an older language, PHP benefits from a large ecosystem of users who have produced frameworks, libraries, and automation tools to make the programming language easier to use. PHP code is also easy to debug.",
+		"common_uses": "PHP is the code running content-oriented websites such as Facebook, WordPress, and Wikipedia.",
+		"course_duration": "40 Hours",
+		"course_module": 22,
+		"course_price": 7000,
+		"course_module_topics": [
+			"Introduction to PHP",
+			"Variables and operators",
+			"Control structures, arrays and PHP array functions",
+			"Functions, arguments, passing by reference, globals and scope",
+			"OOP in PHP4 and PHP5",
+			"MySQL database form PHP",
+			"Enumerations & Structures",
+            "SQLite",
+            "Sessions and Cookies"
+		]
+	},
+	{
+		"courseId": 8,
+		"courseTitle": "Kotlin",
+		"courseImage": "https://i.ibb.co/RzYVGQ7/kotlin.jpg",
+		"course_description": "Kotlin is an object-oriented language which also has a lot of functional programming elements. From the object-oriented side, it supports nominal subtyping with bounded parametric polymorphism (akin to generics) and mixed-site variance. From the functional programming side, it has first-class support for higher-order functions and lambda literals.",
+		"common_uses": " Kotlin can be used for any kind of development, be it server-side, client-side web and Android. With Kotlin/Native currently in the works, support for other platforms such as embedded systems, macOS and iOS is coming.",
+		"course_duration": "35 Hours",
+		"course_module": 20,
+		"course_price": 8000,
+		"course_module_topics": [
+			"Introduction to Kotlin",
+			"Interoperability",
+			"Null safety",
+			"Compile time",
+			"Delegation",
+			"Data classes",
+			"Kotlin Type Conversion",
+            "Control Flow",
+            "Function",
+            "Annotations"
+		]
 	}
 ]
