@@ -4,20 +4,41 @@
 		"courseTitle": "Python",
 		"courseImage": "https://i.ibb.co/FskkvpB/python.jpg",
 		"course_description": "Python is widely regarded as a programming language that's easy to learn, due to its simple syntax, a large library of standards and toolkits, and integration with other popular programming languages such as C and C++. In fact, it's the first language that students learn in the Align program, Gorton says. “You can cover a lot of computer science concepts quickly, and it's relatively easy to build on.” It is a popular programming language, especially among startups, and therefore Python skills are in high demand.",
-        "course_duration": "48 Hours",
-        "course_module": 20,
-        "course_price": 10000,
-        "course_module_topics": [
-            "TensorFlow",
-            "Scikit-Learn",
-            "Numpy",
-            "Keras",
-            "PyTorch",
-            "LightGBM",
-            "Eli5",
-            "Scipy",
-            "Theano",
-            "Pendas"
-        ]
+		"common_uses": "Python is used in a wide variety of applications, including artificial intelligence, financial services, and data science. Social media sites such as Instagram and Pinterest are also built on Python.",
+		"course_duration": "48 Hours",
+		"course_module": 20,
+		"course_price": 10000,
+		"course_module_topics": [
+			"TensorFlow",
+			"Scikit-Learn",
+			"Numpy",
+			"Keras",
+			"PyTorch",
+			"LightGBM",
+			"Eli5",
+			"Scipy",
+			"Theano",
+			"Pendas"
+		]
+	},
+	{
+		"courseId": 2,
+		"courseTitle": "Java",
+		"courseImage": "https://i.ibb.co/Lt7XsxR/java.jpg",
+		"course_description": "Java is the programming language most commonly associated with the development of client-server applications, which are used by large businesses around the world. Java is designed to be a loosely coupled programming language, meaning that an application written in Java can run on any platform that supports Java. As a result, Java is described as the “write once, run anywhere” programming language.",
+        "common_uses": "JavaScript is used extensively in website and mobile application development. Node.js allows for the development of browser-based applications, which do not require users to download an application.",
+		"course_duration": "45 Hours",
+		"course_module": 18,
+		"course_price": 9000,
+		"course_module_topics": [
+			"The Java Shell (REPL)",
+			"The Java 9 Platform Module System",
+			"The Streams API",
+			"Private Method in Interfaces",
+			"Factory Methods for Collections",
+			"SafeVarargs Annotation",
+			"Diamond Operator",
+			"Class"
+		]
 	}
 ]
