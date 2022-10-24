@@ -82,5 +82,46 @@
 			"I/O Streams, Dynamic Memory, & STL",
 			"Handling, Signal Handling & Multithreading"
 		]
+	},
+	{
+		"courseId": 5,
+		"courseTitle": "Go",
+		"courseImage": "https://i.ibb.co/f8Qt60t/Go.png",
+		"course_description": "Also referred to as Golang, Go was developed by Google to be an efficient, readable, and secure language for system-level programming. It works well for distributed systems, in which systems are located on different networks and need to communicate by sending messages to each other. While it is a relatively new language, Go has a large standards library and extensive documentation.",
+		"common_uses": "Go is used primarily for applications that need to process a lot of data. In addition to Google, companies using Go for certain applications include Netflix, Twitch, and Uber.",
+		"course_duration": "40 Hours",
+		"course_module": 20,
+		"course_price": 8000,
+		"course_module_topics": [
+			"Introduction to Go",
+			"Packages",
+			"Functions",
+			"Arrays, Range, Pointers",
+			"Conditions",
+			"Map for returning JSON",
+			"Structs",
+            "Interface"
+		]
+	},
+	{
+		"courseId": 6,
+		"courseTitle": "Swift",
+		"courseImage": "https://i.ibb.co/Sw5L4JB/Swift-Logo.jpg",
+		"course_description": "Swift is Apple's language for developing applications for Mac computers and Apple's mobile devices, including the iPhone, iPad, and Apple Watch. Like many modern programming languages, Swift has a highly readable syntax, runs code quickly, and can be used for both client-side and server-side development. ",
+		"common_uses": "Swift is used for iOS and macOS applications.",
+		"course_duration": "35 Hours",
+		"course_module": 15,
+		"course_price": 8000,
+		"course_module_topics": [
+			"Introduction to Swift",
+			"Swift Environment ",
+			"Scala Basics",
+			"Control Flow",
+			"Data Types",
+			"Functionals and Closures",
+			"Enumerations & Structures",
+            "OOP Concepts",
+            "Miscellaneous Topics"
+		]
 	}
 ]
