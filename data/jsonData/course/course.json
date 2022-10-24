@@ -9,6 +9,7 @@
 		"course_module": 20,
 		"course_price": 10000,
 		"course_module_topics": [
+            "Introduction to Python",
 			"TensorFlow",
 			"Scikit-Learn",
 			"Numpy",
@@ -26,11 +27,12 @@
 		"courseTitle": "Java",
 		"courseImage": "https://i.ibb.co/Lt7XsxR/java.jpg",
 		"course_description": "Java is the programming language most commonly associated with the development of client-server applications, which are used by large businesses around the world. Java is designed to be a loosely coupled programming language, meaning that an application written in Java can run on any platform that supports Java. As a result, Java is described as the “write once, run anywhere” programming language.",
-        "common_uses": "JavaScript is used extensively in website and mobile application development. Node.js allows for the development of browser-based applications, which do not require users to download an application.",
+		"common_uses": "Along with business applications, Java is used extensively in the Android mobile operating system.",
 		"course_duration": "45 Hours",
 		"course_module": 18,
 		"course_price": 9000,
 		"course_module_topics": [
+            "Introduction to Java",
 			"The Java Shell (REPL)",
 			"The Java 9 Platform Module System",
 			"The Streams API",
@@ -39,6 +41,46 @@
 			"SafeVarargs Annotation",
 			"Diamond Operator",
 			"Class"
+		]
+	},
+	{
+		"courseId": 3,
+		"courseTitle": "C",
+		"courseImage": "https://i.ibb.co/kG39skK/c.png",
+		"course_description": "Along with Python and Java, C forms a “good foundation” for learning how to program, Gorton says. As one of the first programming languages ever developed, C has served as the foundation for writing more modern languages such as Python, Ruby, and PHP. It is also an easy language to debug, test, and maintain.",
+		"common_uses": "Because it can run on any type of device, C is often used to program hardware, such as embedded devices in automobiles and medical devices used in healthcare. ",
+		"course_duration": "50 Hours",
+		"course_module": 25,
+		"course_price": 10000,
+		"course_module_topics": [
+            "Introduction to C Programming",
+			"Variables, Data Types & Operators",
+			"Flow Statements",
+			"Array & String Handling",
+			"Functions",
+			"Pointers, Structures, and Unions",
+			"Dynamic Memory Allocation",
+			"File Management & Preprocessors",
+			" LinkedList"
+		]
+	},
+	{
+		"courseId": 4,
+		"courseTitle": "C++",
+		"courseImage": "https://i.ibb.co/Mh8r5Bn/c.png",
+		"course_description": "C++ is an extension of C that works well for programming the systems that run applications, as opposed to the applications themselves. C++ also works well for multi-device and multi-platform systems. Over time, programmers have written a large set of libraries and compilers for C++. Being able to use these utilities effectively is just as important to understanding a programming language as writing code, Gorton says.",
+		"common_uses": "C++ has many uses and is the language behind everything from computer games to mathematical simulations.",
+		"course_duration": "55 Hours",
+		"course_module": 30,
+		"course_price": 10000,
+		"course_module_topics": [
+			"Introduction to C++ Programming",
+			"DataTypes, Variables & Operators",
+			"Conditional & Control Statements",
+			"Arrays, Strings & Pointers",
+			"Functions & OOPs",
+			"I/O Streams, Dynamic Memory, & STL",
+			"Handling, Signal Handling & Multithreading"
 		]
 	}
 ]
