@@ -29,6 +29,7 @@ async function dataBase() {
   try {
     const courseCollection = client.db("cse-from-home").collection("courses");
     const enrollCollection = client.db("cse-from-home").collection("enroll");
+    const classesCollection = client.db("cse-from-home").collection("classes");
 
     app.get("/courses", async (req, res) => {
       const query = {};
@@ -133,6 +134,19 @@ async function dataBase() {
       const query = { email: email };
       const result = await enrollCollection.find(query).toArray();
       res.send(result);
+    });
+
+    app.get("/classes/:courseName", async (req, res) => {
+      const courseName = req.params.courseName;
+      const query = {
+        courseName: courseName,
+      };
+      const classes = await classesCollection.findOne(query);
+      res.send({
+        message: "success",
+        data: classes,
+      });
+      
     });
   } catch (error) {
     console.log(error);
