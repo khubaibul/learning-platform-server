@@ -59,8 +59,8 @@ async function dataBase() {
         currency: "BDT",
         tran_id: transactionId, // use unique tran_id for each api call
         success_url: `https://cse-from-home-server.vercel.app/payment/success?transactionId=${transactionId}`,
-        fail_url: "http://localhost:3030/fail",
-        cancel_url: "http://localhost:3030/cancel",
+        fail_url: "https://cse-from-home-server.vercel.app/payment/fail",
+        cancel_url: "https://cse-from-home-server.vercel.app/payment/cancel",
         ipn_url: "http://localhost:3030/ipn",
         shipping_method: "Courier",
         product_name: paymentData.product_name,
@@ -118,6 +118,13 @@ async function dataBase() {
       }
     });
 
+    app.post("/payment/fail", async (req, res) => {
+      res.redirect(`https://cse-from-home-app.web.app/courses`);
+    });
+    app.post("/payment/cancer", async (req, res) => {
+      res.redirect(`https://cse-from-home-app.web.app/courses`);
+    });
+
     app.get("/enrollInfo", async (req, res) => {
       const transactionId = req.query.tranSactionId;
       const query = { transactionId };
@@ -146,7 +153,6 @@ async function dataBase() {
         message: "success",
         data: classes,
       });
-      
     });
   } catch (error) {
     console.log(error);
